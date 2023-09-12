@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="Do_somethimg.php">
+        <!-- c;ient side : id attribute link label and the input type -->
+        <!-- Server side : name - form submission get values when submitting button -->
+        <!-- usually we set name same as the id  -->
+        <label for="first_name">First Name</label>
+        <input type="text" id = "first_name" name = "first_name" placeholder="Dulani"><br>
+
+
+        <label for="last_name">Last Name</label>
+        <input type="text" id = "last_name" name = "last_name" placeholder="De Silva" size = “30” maxlenght = “20” value = “De Silva”><br> 
+        <!-- 30character wide but accept only 20 characters -->
+
+
+ <!-- radio buttons: checked will highlight when the page loads -->
+        <label for="title">Title: </label>
+        <label for="Mrs">Mrs: </label>
+        <input type="radio" value="Mrs." id="Mrs" name="title">
+        <label for="Miss">Miss: </label>
+        <input type="radio" value="Miss." id="Miss" name="title" checked>
+        <label for="Mr">Mr:  </label>
+        <input type="radio" value="Mr." id="Mr" name="title"><br>
+
+
+        <!-- should add name attribute of same name to group them together, otherwise
+        when selecting title from the form all will get selected -->
+
+
+Checkbox
+       <input type = “checkbox” name = “checkbox” value = “checkbox” checked>
+        <br>
+
+
+
+<!-- Drop downs: size: the number of items visible default is 1, multiple: true => any number of items may be selected -->
+        <label for="payment">Payment: </label>  
+        <select name="" id="payment">
+            <option value="visa">Visa card</option>
+            <option value="mastercard">Master card</option>
+            <option value="giftcard">giftcard card</option>
+        </select><br>
+
+
+        <!-- email -->
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" placeholder="dulnai@gmail.com"><br>
+
+
+        <!-- birthday -->
+        <label for="date">Birthday: </label>    
+        <input type="date" id = "date" name="date" min="2000-02-02">     <br>
+
+
+        <!-- quanity , value gives default value-->
+        <label for="quanity"> Quanity: </label>
+        <input type ="number" id ="quanity" name="quanity" min="0" max="99" value="1">
+
+
+        <br>
+        <!-- telephone -->
+        <label for="phone"> Phone #: </label>
+        <input type="tel" id="phone" name="phone">
+
+
+        <br>
+        <!-- password -->
+        <label for="pass"> Password: </label>
+        <input type="password" id="pass" name="pass" maxlength="12">
+
+
+        <br>
+        <!-- range -->
+        <label for="slider"> Rate us: </label>
+        1<input type="range" id="slider" name="slider" step="25" value="30">100
+
+
+        <br>
+        <!-- checkbox -->
+        <label for="tick"> Subscribe: </label>
+        <input type="checkbox" id="tick" name="tick">
+
+
+        <br>
+        <!-- File upload -->
+        <label for="upload"> File upload: </label>
+        <input type="file" id="upload" name="upload" accept=".pdf">
+
+
+        <br>
+   <!-- Text Area -->
+          <label for="textarea"> Enter description: </label>
+        <textarea name ="commnets" id="textarea" rows = “6” cols = “45” wrap = “virtual”>The text goes heere </textarea>
+
+
+
+
+
+
+
+
+        <input type="reset" name = “reset” value = “Reset”><br>
+
+
+        <input type="submit" name = “Submit” value = “Submit”><br>
+        <!-- after pressing the submit button the infomration is sent to the
+        place defined in the action attribute of the form -->
+
+
+
+
+    </form>
+</body>
+</html>
