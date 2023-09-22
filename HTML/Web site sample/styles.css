@@ -1,0 +1,11 @@
+*{
+    background-color: snow;
+}
+
+hr{
+    background-color: gray;
+    border-style: none;
+    border-top-style: dotted;
+    height: 0px;
+    width: 5%;
+}
