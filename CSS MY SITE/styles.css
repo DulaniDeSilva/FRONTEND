@@ -1,37 +1,223 @@
-div{
+.top-container{
     background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
    
 }
 
 body{
-    margin: 0;
+    /* to make all the elements to attached to the page */
+    margin: 0; 
+    /* workis for inline and block elements */
+    text-align: center;
+    /* monophase: every thing takes of one space
+       cursive/ fantasy: dont use them low readability
+       default: serif font
+       
+       ###############################################
+       web safe fonts: 
+       cssfontstack.com
+       font.google.com
+       flaticon.com: gives icons 
+       giphy.com: gives gifs
+        css button generator: css3buttongenerator.com 
+
+
+        */
+    font-family:'Merriweather', sans-serif;
+    font-size: 100%;
+    color:#40514E;
+
 }
+
+.middle-container{
+    margin: 100px auto 100px auto;
+}
+
 
 h1{
-    margin-top: 0;
+    margin: 50px auto 0px auto;
+    font-family: 'Sacramento', cursive;
+    /* font-size: 90px; */
+    /* making the font size dynamic
+        instead of using pixels use scalling percentages */
+    font-size: 5.625rem;
+    /* this allows for dynamic font size 
+    OR we can use "em" for this
+    em => M width of the captial letter M, 90px =5.525 em, em gives ability 
+    of dynamically changing the font size with the size of the fonts assigned by
+    the user. 
+    disadvantage of em: it inherits the value to other
+
+    
+    rem: root em; */
+    /* second method of centering */
+    /* margin:0 auto 0 auto; */
+
+    color: #66BFBF;
+    /* default line height is 1 */
+    /* line-height: 2; */
+
+
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    /* light weight */
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.top-container h2{
+    /* set the h2 to 40px
+    1 em = 16px
+    40/16 = 2.5rem */
+    font-size: 2.5rem;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
 }
 
-/* .topcontainer{
+.top_cloud{
+    position: absolute;
+    right: 100px;
+    top: 30px;
+}
+
+.bottom_cloud{
+    position: absolute;
+    left:100px;
+    bottom:300px;
+}
+
+
+
+
+
+.top{
     height: 200px;
     width: 200px;
     background-color: red;
-    border: 10px solid;
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    
     
 }
 
-.middlecontainer{
+.middle{
     height: 200px;
     width: 200px;
     background-color: blue;
-    margin-left: 260px;
-    border: solid 10px;
-   
+    position: absolute;
+    top:200px;
+    left: 200px;
+    position: fixed;
+
 }
 
-.bottomcontainer{
+.bottom{
     height: 200px;
     width: 200px;
     background-color: yellow;
-    margin-left: 460px;
+    position: absolute;
+    top:0px;
     
-} */
+   
+    
+} 
+
+/* floating: wrap the text along the image */
+.skill-row{
+    width: 50%;
+    margin: auto;
+    text-align:left;
+    line-height: 2;
+}
+
+.skill-row2{
+    width: 50%;
+    margin-top: 70px;
+    text-align:left;
+    line-height: 2;
+    position: relative;
+    left: 25%;
+    top: 50px;
+}
+.skill{
+    border-radius: 150px;
+}
+.skill_image{
+    
+    border-radius: 100px;
+    width: 25%; 
+    float: left;
+    position: relative;
+    margin-right: 30px;
+    
+}
+
+.skill_computer{
+    border-radius: 100px; 
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    
+}
+
+.contact_me{
+    position: relative;
+    padding-top: 100px;
+}
+
+.btn {
+    -webkit-border-radius: 49;
+    -moz-border-radius: 49;
+    border-radius: 49px;
+    font-family: Arial;
+    color: #f2f7f3;
+    font-size: 21px;
+    background: #067a0e;
+    padding: 9px 23px 9px 23px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #329122;
+    text-decoration: none;
+  }
+
+a{
+    color: #11999E;
+    font-family:'monsira', sans-serif;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+.copyright{
+    color:#EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px auto 20px auto;
+}
+
+
+.bottom-container{
+    background-color:#66BFBF;
+    padding: 50px 0 20px 0px;
+}
+
+
+.hr {
+    color:#66BFBF;
+    border-style: none;
+    border-top-style: dotted;
+    height: 2px;
+    width: 25%;
+    
+}
+
+
