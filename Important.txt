@@ -1,0 +1,73 @@
+Code Refactoring
+
+1.Readability
+2.Modularity
+3.Efficiency
+4.Length
+
+codegolf.stackchange.com
+
+//grouping similar things
+
+h1, p{
+color: red;
+}
+
+#title .container-fluid{
+	padding-top: 3%;
+	
+}
+
+selector1 seclector2{
+	//each selector seperated with a space
+	//heirarchy read from the right to left
+	above pareent: title
+	child: container-fluid
+}
+
+//combine selectors: no space between the selectors
+selector1selector2{
+	//elements should be of same component
+}
+
+
+
+//just css not bootstrap
+
+<div class = "container">
+	<h1 class = "title"> Hello World</h1>
+</div>
+<div class = "container-fluid">
+	<h1 class = "title">Good Bye World</h1>
+</div>
+
+
+
+element .class
+
+
+element.class
+
+
+//color helloworld by red
+h1{
+	color: red; //this changes both to red
+}
+
+//isolating hello world 
+container .title{
+	color: red;
+}
+//an element with class called title that inside a class called container should have red color
+
+container.title{
+
+}
+//this looks for an element inside html has a class of .container but also class of title
+
+
+
+
+
+
+
