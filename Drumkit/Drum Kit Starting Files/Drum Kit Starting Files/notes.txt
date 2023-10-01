@@ -1,0 +1,111 @@
+
+In google if we highlight a word and then inspect it we can see that therre is specific identifications
+for this.
+
+$0;
+$0.addEvenLister("click", function(){
+    cosole.log("I got clicked);
+}
+
+$0.addEvenLister(input1, input2);
+input1: what event it should listen to
+input2: what should do when that event is detected; function can be passed
+
+//creating a cal
+fucntino calculaor(num1, num2){
+    return num1+num2;
+}
+calculaor(2, 3) => 5
+
+function calculator(num1, num2){
+    return num1*num2;
+}
+calculator(2,3) => 6
+
+
+fucntion multiply(num1, num2){
+    return num1*num2;
+}
+function adding(num)
+
+//to debug a function in chrome developer tool
+debugger:
+calculaor(2,3)
+
+
+javascript objects
+
+var student = {
+    name: "Dulani";
+    age: 25;
+    hasWork: false;
+
+}
+
+var housekeeper = {
+    name = "Sasanka";
+    village: "Kurunegala";
+    married: false;
+    hobbies: ["cleaning","eating"]
+
+}
+//accessing attributes
+housekeeper.name 
+housekeeper.village
+
+//constructor function
+function housekeeper(name, age, hobbies){
+    this.name = name;
+    this.age = age;
+    this.hobbies = hobbies;
+}
+
+initializing an objects
+var housekeeper1 = new housekeeper("Dulani", 25, ["eating, "walking"]);
+
+Example
+var student = {
+    name = "Sasanka";
+    age = 25;
+    course = "CS hons";
+}
+
+function student(name, age, course){
+    this.name = name;
+    this.age = age;
+    this.course = course;
+}
+
+student student1 = new student("Sasanka", 25, "cs hons");
+
+
+#############Methods #############
+adding a method to the constructor function
+function student(name, age, course){
+    this.name = name;
+    this.age = age;
+    this.course = course;
+    this.learn = fucntion(){
+        alert("Learning in progress);
+    }
+}
+
+var student2 = new Student("Dua", 23, "asdf)
+student2.learn(); => learning in progress
+
+
+
+################################Understanding call backs
+and how to repsond to events################################
+
+document.addEventListener("keypress", respondToKey(event));
+function respondToKey(event){
+    console.log("key pressed);
+}
+
+$0.addEventListener("Click", function(event){
+    console.log(event);
+})
+attack eventlister to $0 and get it to listento
+to click event, and if click then do the 
+fucntion.

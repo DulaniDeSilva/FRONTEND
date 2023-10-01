@@ -1,0 +1,9 @@
+h1{
+    background-color: red;
+}
+
+.huge{
+    font-size : 10rem;
+    color: yellow;
+    font-weight: bold;
+}
