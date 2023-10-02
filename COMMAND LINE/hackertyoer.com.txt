@@ -1,0 +1,28 @@
+hackertyoer.com
+learnenough.com
+
+
+Command line arguments
+ls -list
+cd-  change directory
+
+directory creation
+mkdir directoryName
+
+creating a file
+touch filename
+
+open the file
+start filename
+start vs index.html
+start application filenamewithExtensiion
+
+Delete the file
+rm filename
+
+DELETE ALL THE FILES
+rm *
+
+
+
+

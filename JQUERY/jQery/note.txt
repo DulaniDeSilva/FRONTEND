@@ -1,0 +1,5 @@
+minify.org = > remove the spaces and minimizes the size of the code
+This makes user browser loads faster
+
+
+
